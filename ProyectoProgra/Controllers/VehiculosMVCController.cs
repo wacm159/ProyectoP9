@@ -134,6 +134,7 @@ namespace ProyectoProgra.Controllers
                     }
                 }
                 ModelState.AddModelError(string.Empty, "Error en la insercion, favor contacte al administrador");
+
             }
             return RedirectToAction("Index");
         }
